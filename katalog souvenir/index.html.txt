@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Souvenir Botol - Kia Souvenir</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <!-- Placeholder Logo -->
+                <img src="https://via.placeholder.com/40x40?text=LOGO" alt="Logo Kia Souvenir">
+                <h1>Kia Souvenir</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#botol-kaca">Botol Kaca</a></li>
+                    <li><a href="#botol-minyak">Botol Minyak & Lainnya</a></li>
+                    <li><a href="#botol-sabun">Botol Sabun</a></li>
+                    <li><a href="#termos">Termos</a></li>
+                    <li><a href="#kemasan">Contoh Kemasan</a></li>
+                    <li><a href="https://wa.me/6282142074822" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat Admin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section class="hero-section">
+            <h2>Katalog Souvenir Botol</h2>
+            <p>Temukan berbagai pilihan botol souvenir berkualitas untuk acara spesial Anda.</p>
+        </section>
+
+        <!-- Filter/Search Section -->
+        <section class="filter-section">
+            <input type="text" id="searchInput" placeholder="Cari produk..." onkeyup="filterProducts()">
+            <select id="categoryFilter" onchange="filterProducts()">
+                <option value="all">Semua Kategori</option>
+                <option value="botol-kaca">Botol Kaca</option>
+                <option value="botol-minyak">Botol Minyak & Lainnya</option>
+                <option value="botol-sabun">Botol Sabun</option>
+                <option value="termos">Termos</option>
+            </select>
+        </section>
+
+        <!-- Kategori Produk: Botol Kaca -->
+        <section id="botol-kaca" class="product-category">
+            <h3>1. Botol Kaca</h3>
+            <p class="category-info">Sablon minimal order 100 pcs (1 warna & 1 sisi). Bisa request cetak tulisan/logo berwarna (chat admin). Harga sudah termasuk pita & kartu ucapan. Warna botol campur.</p>
+            <div class="product-grid">
+                <!-- Kaca Bening -->
+                <div class="product-card" data-category="botol-kaca" data-name="Kaca Bening Polos">
+                    <img src="https://picsum.photos/id/10/300/200" alt="Botol Kaca Bening Polos">
+                    <h4>Kaca Bening Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.000</strong></p>
+                        <p>Tile: <strong>Rp 7.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kaca Bening Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Kaca Bening Sablon">
+                    <img src="https://picsum.photos/id/11/300/200" alt="Botol Kaca Bening Sablon">
+                    <h4>Kaca Bening Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kaca Bening Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Kaca Doff -->
+                <div class="product-card" data-category="botol-kaca" data-name="Kaca Doff Polos">
+                    <img src="https://picsum.photos/id/12/300/200" alt="Botol Kaca Doff Polos">
+                    <h4>Kaca Doff Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kaca Doff Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Kaca Doff Sablon">
+                    <img src="https://picsum.photos/id/13/300/200" alt="Botol Kaca Doff Sablon">
+                    <h4>Kaca Doff Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kaca Doff Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Happy Day (Doff) -->
+                <div class="product-card" data-category="botol-kaca" data-name="Happy Day Doff Polos">
+                    <img src="https://picsum.photos/id/14/300/200" alt="Happy Day Doff Polos">
+                    <h4>Happy Day (Doff) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Happy Day Doff Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Happy Day Doff Sablon">
+                    <img src="https://picsum.photos/id/15/300/200" alt="Happy Day Doff Sablon">
+                    <h4>Happy Day (Doff) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Happy Day Doff Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Kaktus -->
+                <div class="product-card" data-category="botol-kaca" data-name="Kaktus Polos">
+                    <img src="https://picsum.photos/id/16/300/200" alt="Kaktus Polos">
+                    <h4>Kaktus Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kaktus Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Kaktus Sablon">
+                    <img src="https://picsum.photos/id/17/300/200" alt="Kaktus Sablon">
+                    <h4>Kaktus Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kaktus Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Pelangi Doff -->
+                <div class="product-card" data-category="botol-kaca" data-name="Pelangi Doff Polos">
+                    <img src="https://picsum.photos/id/18/300/200" alt="Pelangi Doff Polos">
+                    <h4>Pelangi Doff Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pelangi Doff Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Pelangi Doff Sablon">
+                    <img src="https://picsum.photos/id/19/300/200" alt="Pelangi Doff Sablon">
+                    <h4>Pelangi Doff Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pelangi Doff Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Nice -->
+                <div class="product-card" data-category="botol-kaca" data-name="Nice Polos">
+                    <img src="https://picsum.photos/id/20/300/200" alt="Nice Polos">
+                    <h4>Nice Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Nice Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Nice Sablon">
+                    <img src="https://picsum.photos/id/21/300/200" alt="Nice Sablon">
+                    <h4>Nice Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Nice Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Summer -->
+                <div class="product-card" data-category="botol-kaca" data-name="Summer Polos">
+                    <img src="https://picsum.photos/id/22/300/200" alt="Summer Polos">
+                    <h4>Summer Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.500</strong></p>
+                        <p>Tile: <strong>Rp 9.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Summer Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Summer Sablon">
+                    <img src="https://picsum.photos/id/23/300/200" alt="Summer Sablon">
+                    <h4>Summer Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 9.000</strong></p>
+                        <p>Tile: <strong>Rp 9.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 10.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Summer Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Fancy -->
+                <div class="product-card" data-category="botol-kaca" data-name="Fancy Polos">
+                    <img src="https://picsum.photos/id/24/300/200" alt="Fancy Polos">
+                    <h4>Fancy Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Fancy Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Fancy Sablon">
+                    <img src="https://picsum.photos/id/25/300/200" alt="Fancy Sablon">
+                    <h4>Fancy Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Fancy Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Makaron -->
+                <div class="product-card" data-category="botol-kaca" data-name="Makaron Polos">
+                    <img src="https://picsum.photos/id/26/300/200" alt="Makaron Polos">
+                    <h4>Makaron Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 11.000</strong></p>
+                        <p>Tile: <strong>Rp 11.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Makaron Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Makaron Sablon">
+                    <img src="https://picsum.photos/id/27/300/200" alt="Makaron Sablon">
+                    <h4>Makaron Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 11.500</strong></p>
+                        <p>Tile: <strong>Rp 12.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Makaron Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Monokrom -->
+                <div class="product-card" data-category="botol-kaca" data-name="Monokrom Polos">
+                    <img src="https://picsum.photos/id/28/300/200" alt="Monokrom Polos">
+                    <h4>Monokrom Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.500</strong></p>
+                        <p>Tile: <strong>Rp 9.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Monokrom Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Monokrom Sablon">
+                    <img src="https://picsum.photos/id/29/300/200" alt="Monokrom Sablon">
+                    <h4>Monokrom Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 9.000</strong></p>
+                        <p>Tile: <strong>Rp 9.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 10.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Monokrom Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Youth -->
+                <div class="product-card" data-category="botol-kaca" data-name="Youth Polos">
+                    <img src="https://picsum.photos/id/30/300/200" alt="Youth Polos">
+                    <h4>Youth Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Youth Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Youth Sablon">
+                    <img src="https://picsum.photos/id/31/300/200" alt="Youth Sablon">
+                    <h4>Youth Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.500</strong></p>
+                        <p>Tile: <strong>Rp 9.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Youth Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Hulu -->
+                <div class="product-card" data-category="botol-kaca" data-name="Hulu Polos">
+                    <img src="https://picsum.photos/id/32/300/200" alt="Hulu Polos">
+                    <h4>Hulu Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Hulu Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-kaca" data-name="Hulu Sablon">
+                    <img src="https://picsum.photos/id/33/300/200" alt="Hulu Sablon">
+                    <h4>Hulu Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.500</strong></p>
+                        <p>Tile: <strong>Rp 9.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Hulu Sablon">Pesan Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kategori Produk: Botol Minyak & Botol Minum Lainnya -->
+        <section id="botol-minyak" class="product-category">
+            <h3>2. Botol Minyak & Botol Minum Lainnya</h3>
+            <p class="category-info">Minimal order 100 pcs. Harga sudah termasuk pita & kartu ucapan. Warna botol random / campur.</p>
+            <div class="product-grid">
+                <!-- Botol Minyak -->
+                <div class="product-card" data-category="botol-minyak" data-name="Botol Minyak Polos">
+                    <img src="https://picsum.photos/id/34/300/200" alt="Botol Minyak Polos">
+                    <h4>Botol Minyak Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 9.500</strong></p>
+                        <p>Tile: <strong>Rp 10.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 11.500</strong></p>
+                        <p>Box Pabrik: <strong>Rp 11.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Botol Minyak Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-minyak" data-name="Botol Minyak Sablon">
+                    <img src="https://picsum.photos/id/35/300/200" alt="Botol Minyak Sablon">
+                    <h4>Botol Minyak Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 10.000</strong></p>
+                        <p>Tile: <strong>Rp 11.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                        <p>Box Pabrik: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Botol Minyak Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- My Bottle Square -->
+                <div class="product-card" data-category="botol-minyak" data-name="My Bottle Square Polos">
+                    <img src="https://picsum.photos/id/36/300/200" alt="My Bottle Square Polos">
+                    <h4>My Bottle Square Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 7.500</strong></p>
+                        <p>Tile: <strong>Rp 8.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 8.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="My Bottle Square Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-minyak" data-name="My Bottle Square Sablon">
+                    <img src="https://picsum.photos/id/37/300/200" alt="My Bottle Square Sablon">
+                    <h4>My Bottle Square Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="My Bottle Square Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Pastel -->
+                <div class="product-card" data-category="botol-minyak" data-name="Pastel Polos">
+                    <img src="https://picsum.photos/id/38/300/200" alt="Pastel Polos">
+                    <h4>Pastel Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 10.000</strong></p>
+                        <p>Tile: <strong>Rp 10.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 11.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pastel Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-minyak" data-name="Pastel Sablon">
+                    <img src="https://picsum.photos/id/39/300/200" alt="Pastel Sablon">
+                    <h4>Pastel Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 11.000</strong></p>
+                        <p>Tile: <strong>Rp 11.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pastel Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Kristal -->
+                <div class="product-card" data-category="botol-minyak" data-name="Kristal Polos">
+                    <img src="https://picsum.photos/id/40/300/200" alt="Kristal Polos">
+                    <h4>Kristal Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.000</strong></p>
+                        <p>Tile: <strong>Rp 8.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kristal Polos">Pesan Sekarang</button>
+                </div>
+                <!-- Nura -->
+                <div class="product-card" data-category="botol-minyak" data-name="Nura Polos">
+                    <img src="https://picsum.photos/id/41/300/200" alt="Nura Polos">
+                    <h4>Nura Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.500</strong></p>
+                        <p>Tile: <strong>Rp 9.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 9.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Nura Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-minyak" data-name="Nura Sablon">
+                    <img src="https://picsum.photos/id/42/300/200" alt="Nura Sablon">
+                    <h4>Nura Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 9.000</strong></p>
+                        <p>Tile: <strong>Rp 9.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 10.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Nura Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Mutiara -->
+                <div class="product-card" data-category="botol-minyak" data-name="Mutiara Polos">
+                    <img src="https://picsum.photos/id/43/300/200" alt="Mutiara Polos">
+                    <h4>Mutiara Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 11.000</strong></p>
+                        <p>Tile: <strong>Rp 11.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mutiara Polos">Pesan Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kategori Produk: Botol Sabun -->
+        <section id="botol-sabun" class="product-category">
+            <h3>3. Botol Sabun</h3>
+            <p class="category-info">Minimal order 100 pcs. Sablon 1 sisi 1 warna; sticker 1 sisi berwarna. Botol plastik bisa pilih warna hitam / putih / colorful. Harga sudah termasuk pita & kartu ucapan.</p>
+            <div class="product-grid">
+                <!-- Pump 250ml -->
+                <div class="product-card" data-category="botol-sabun" data-name="Pump 250ml Polos">
+                    <img src="https://picsum.photos/id/44/300/200" alt="Pump 250ml Polos">
+                    <h4>Pump 250ml Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 8.500</strong></p>
+                        <p>Tile: <strong>Rp 9.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 10.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump 250ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-sabun" data-name="Pump 250ml Sablon">
+                    <img src="https://picsum.photos/id/45/300/200" alt="Pump 250ml Sablon">
+                    <h4>Pump 250ml Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 9.000</strong></p>
+                        <p>Tile: <strong>Rp 10.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 10.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump 250ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Pump 500ml -->
+                <div class="product-card" data-category="botol-sabun" data-name="Pump 500ml Polos">
+                    <img src="https://picsum.photos/id/46/300/200" alt="Pump 500ml Polos">
+                    <h4>Pump 500ml Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 10.000</strong></p>
+                        <p>Tile: <strong>Rp 11.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 11.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-sabun" data-name="Pump 500ml Sablon">
+                    <img src="https://picsum.photos/id/47/300/200" alt="Pump 500ml Sablon">
+                    <h4>Pump 500ml Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 10.500</strong></p>
+                        <p>Tile: <strong>Rp 11.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Pump Label -->
+                <div class="product-card" data-category="botol-sabun" data-name="Pump Label 250ml">
+                    <img src="https://picsum.photos/id/48/300/200" alt="Pump Label 250ml">
+                    <h4>Pump Label 250ml</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 9.000</strong></p>
+                        <p>Tile: <strong>Rp 10.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 10.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump Label 250ml">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="botol-sabun" data-name="Pump Label 500ml">
+                    <img src="https://picsum.photos/id/49/300/200" alt="Pump Label 500ml">
+                    <h4>Pump Label 500ml</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 10.500</strong></p>
+                        <p>Tile: <strong>Rp 11.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump Label 500ml">Pesan Sekarang</button>
+                </div>
+                <!-- Pump Plastik Warna-warni -->
+                <div class="product-card" data-category="botol-sabun" data-name="Pump Plastik Warna-warni">
+                    <img src="https://picsum.photos/id/50/300/200" alt="Pump Plastik Warna-warni">
+                    <h4>Pump Plastik Warna-warni (250ml & 500ml)</h4>
+                    <div class="price-options">
+                        <p>Harga lebih mahal Rp 1.000 dari pump hitam/putih.</p>
+                    </div>
+                    <button class="btn-order" data-product="Pump Plastik Warna-warni">Pesan Sekarang</button>
+                </div>
+                <!-- Pump Kaca Bening -->
+                <div class="product-card" data-category="botol-sabun" data-name="Pump Kaca Bening 400ml">
+                    <img src="https://picsum.photos/id/51/300/200" alt="Pump Kaca Bening 400ml">
+                    <h4>Pump Kaca Bening (400ml)</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 10.500</strong></p>
+                        <p>Tile: <strong>Rp 11.000</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump Kaca Bening 400ml">Pesan Sekarang</button>
+                </div>
+                <!-- Pump Kaca Warna-warni -->
+                <div class="product-card" data-category="botol-sabun" data-name="Pump Kaca Warna-warni 400ml">
+                    <img src="https://picsum.photos/id/52/300/200" alt="Pump Kaca Warna-warni 400ml">
+                    <h4>Pump Kaca Warna-warni (400ml)</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 11.000</strong></p>
+                        <p>Tile: <strong>Rp 11.500</strong></p>
+                        <p>Mika/Box/Paperbag: <strong>Rp 12.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pump Kaca Warna-warni 400ml">Pesan Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kategori Produk: Termos -->
+        <section id="termos" class="product-category">
+            <h3>4. Termos (Stainless Steel)</h3>
+            <p class="category-info">Sablon minimal order 50 pcs (1 warna & 1 sisi). Harga sudah termasuk pita & kartu ucapan. Cetak Grafir / UV Print: chat admin untuk harga. Request custom box ada harga khusus (chat admin).</p>
+            <div class="product-grid">
+                <!-- Niagara -->
+                <div class="product-card" data-category="termos" data-name="Niagara 500ml Polos">
+                    <img src="https://picsum.photos/id/53/300/200" alt="Niagara 500ml Polos">
+                    <h4>Niagara (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 24.500</strong></p>
+                        <p>Tile: <strong>Rp 25.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 25.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Niagara 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Niagara 500ml Sablon">
+                    <img src="https://picsum.photos/id/54/300/200" alt="Niagara 500ml Sablon">
+                    <h4>Niagara (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 25.000</strong></p>
+                        <p>Tile: <strong>Rp 25.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 26.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Niagara 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Life -->
+                <div class="product-card" data-category="termos" data-name="Life 500ml Polos">
+                    <img src="https://picsum.photos/id/55/300/200" alt="Life 500ml Polos">
+                    <h4>Life (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 24.500</strong></p>
+                        <p>Tile: <strong>Rp 25.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 25.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Life 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Life 500ml Sablon">
+                    <img src="https://picsum.photos/id/56/300/200" alt="Life 500ml Sablon">
+                    <h4>Life (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 25.000</strong></p>
+                        <p>Tile: <strong>Rp 25.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 26.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Life 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Smart (Sensor Suhu LED) -->
+                <div class="product-card" data-category="termos" data-name="Smart 500ml Polos">
+                    <img src="https://picsum.photos/id/57/300/200" alt="Smart 500ml Polos">
+                    <h4>Smart (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 25.500</strong></p>
+                        <p>Tile: <strong>Rp 26.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 26.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Smart 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Smart 500ml Sablon">
+                    <img src="https://picsum.photos/id/58/300/200" alt="Smart 500ml Sablon">
+                    <h4>Smart (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 26.000</strong></p>
+                        <p>Tile: <strong>Rp 26.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 27.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Smart 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Alfa -->
+                <div class="product-card" data-category="termos" data-name="Alfa 500ml Polos">
+                    <img src="https://picsum.photos/id/59/300/200" alt="Alfa 500ml Polos">
+                    <h4>Alfa (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.000</strong></p>
+                        <p>Tile: <strong>Rp 32.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Alfa 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Alfa 500ml Sablon">
+                    <img src="https://picsum.photos/id/60/300/200" alt="Alfa 500ml Sablon">
+                    <h4>Alfa (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.500</strong></p>
+                        <p>Tile: <strong>Rp 33.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Alfa 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Rose -->
+                <div class="product-card" data-category="termos" data-name="Rose 500ml Polos">
+                    <img src="https://picsum.photos/id/61/300/200" alt="Rose 500ml Polos">
+                    <h4>Rose (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 28.500</strong></p>
+                        <p>Tile: <strong>Rp 29.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 29.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Rose 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Rose 500ml Sablon">
+                    <img src="https://picsum.photos/id/62/300/200" alt="Rose 500ml Sablon">
+                    <h4>Rose (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 29.000</strong></p>
+                        <p>Tile: <strong>Rp 29.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 30.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Rose 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Bowling -->
+                <div class="product-card" data-category="termos" data-name="Bowling 500ml Polos">
+                    <img src="https://picsum.photos/id/63/300/200" alt="Bowling 500ml Polos">
+                    <h4>Bowling (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 37.500</strong></p>
+                        <p>Tile: <strong>Rp 38.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 38.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bowling 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Bowling 500ml Sablon">
+                    <img src="https://picsum.photos/id/64/300/200" alt="Bowling 500ml Sablon">
+                    <h4>Bowling (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 38.000</strong></p>
+                        <p>Tile: <strong>Rp 38.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 39.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bowling 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Sultan -->
+                <div class="product-card" data-category="termos" data-name="Sultan 500ml Polos">
+                    <img src="https://picsum.photos/id/65/300/200" alt="Sultan 500ml Polos">
+                    <h4>Sultan (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Kemas paperbag bawaan pabrik: <strong>Rp 39.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Sultan 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Sultan 500ml Sablon">
+                    <img src="https://picsum.photos/id/66/300/200" alt="Sultan 500ml Sablon">
+                    <h4>Sultan (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Kemas paperbag bawaan pabrik: <strong>Rp 40.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Sultan 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Ultra -->
+                <div class="product-card" data-category="termos" data-name="Ultra 500ml Polos">
+                    <img src="https://picsum.photos/id/67/300/200" alt="Ultra 500ml Polos">
+                    <h4>Ultra (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.000</strong></p>
+                        <p>Tile: <strong>Rp 32.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Ultra 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Ultra 500ml Sablon">
+                    <img src="https://picsum.photos/id/68/300/200" alt="Ultra 500ml Sablon">
+                    <h4>Ultra (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.500</strong></p>
+                        <p>Tile: <strong>Rp 33.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Ultra 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Eggy -->
+                <div class="product-card" data-category="termos" data-name="Eggy 350ml Polos">
+                    <img src="https://picsum.photos/id/69/300/200" alt="Eggy 350ml Polos">
+                    <h4>Eggy (350ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 29.500</strong></p>
+                        <p>Tile: <strong>Rp 30.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 30.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Eggy 350ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Eggy 350ml Sablon">
+                    <img src="https://picsum.photos/id/70/300/200" alt="Eggy 350ml Sablon">
+                    <h4>Eggy (350ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 30.000</strong></p>
+                        <p>Tile: <strong>Rp 30.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 31.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Eggy 350ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Pablo -->
+                <div class="product-card" data-category="termos" data-name="Pablo 500ml Polos">
+                    <img src="https://picsum.photos/id/71/300/200" alt="Pablo 500ml Polos">
+                    <h4>Pablo (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 41.500</strong></p>
+                        <p>Tile: <strong>Rp 42.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 42.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pablo 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Pablo 500ml Sablon">
+                    <img src="https://picsum.photos/id/72/300/200" alt="Pablo 500ml Sablon">
+                    <h4>Pablo (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 42.000</strong></p>
+                        <p>Tile: <strong>Rp 42.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 43.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pablo 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Arizona -->
+                <div class="product-card" data-category="termos" data-name="Arizona 500ml Polos">
+                    <img src="https://picsum.photos/id/73/300/200" alt="Arizona 500ml Polos">
+                    <h4>Arizona (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 41.500</strong></p>
+                        <p>Tile: <strong>Rp 42.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 42.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Arizona 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Arizona 500ml Sablon">
+                    <img src="https://picsum.photos/id/74/300/200" alt="Arizona 500ml Sablon">
+                    <h4>Arizona (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 42.000</strong></p>
+                        <p>Tile: <strong>Rp 42.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 43.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Arizona 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Boggy -->
+                <div class="product-card" data-category="termos" data-name="Boggy 500ml Polos">
+                    <img src="https://picsum.photos/id/75/300/200" alt="Boggy 500ml Polos">
+                    <h4>Boggy (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 47.500</strong></p>
+                        <p>Tile: <strong>Rp 49.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 50.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Boggy 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Boggy 500ml Sablon">
+                    <img src="https://picsum.photos/id/76/300/200" alt="Boggy 500ml Sablon">
+                    <h4>Boggy (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 48.000</strong></p>
+                        <p>Tile: <strong>Rp 49.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 51.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Boggy 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Flicko -->
+                <div class="product-card" data-category="termos" data-name="Flicko 380ml Polos">
+                    <img src="https://picsum.photos/id/77/300/200" alt="Flicko 380ml Polos">
+                    <h4>Flicko (380ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 30.500</strong></p>
+                        <p>Tile: <strong>Rp 31.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 31.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Flicko 380ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Flicko 380ml Sablon">
+                    <img src="https://picsum.photos/id/78/300/200" alt="Flicko 380ml Sablon">
+                    <h4>Flicko (380ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 31.000</strong></p>
+                        <p>Tile: <strong>Rp 31.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 32.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Flicko 380ml Sablon">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Flicko 510ml Polos">
+                    <img src="https://picsum.photos/id/79/300/200" alt="Flicko 510ml Polos">
+                    <h4>Flicko (510ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.000</strong></p>
+                        <p>Tile: <strong>Rp 32.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Flicko 510ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Flicko 510ml Sablon">
+                    <img src="https://picsum.photos/id/80/300/200" alt="Flicko 510ml Sablon">
+                    <h4>Flicko (510ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.500</strong></p>
+                        <p>Tile: <strong>Rp 33.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Flicko 510ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Kuro -->
+                <div class="product-card" data-category="termos" data-name="Kuro 500ml Polos">
+                    <img src="https://picsum.photos/id/81/300/200" alt="Kuro 500ml Polos">
+                    <h4>Kuro (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 39.500</strong></p>
+                        <p>Tile: <strong>Rp 40.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 40.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kuro 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Kuro 500ml Sablon">
+                    <img src="https://picsum.photos/id/82/300/200" alt="Kuro 500ml Sablon">
+                    <h4>Kuro (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 40.000</strong></p>
+                        <p>Tile: <strong>Rp 40.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 41.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Kuro 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Harvey -->
+                <div class="product-card" data-category="termos" data-name="Harvey 600ml Polos">
+                    <img src="https://picsum.photos/id/83/300/200" alt="Harvey 600ml Polos">
+                    <h4>Harvey (600ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 45.500</strong></p>
+                        <p>Tile: <strong>Rp 46.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 46.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Harvey 600ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Harvey 600ml Sablon">
+                    <img src="https://picsum.photos/id/84/300/200" alt="Harvey 600ml Sablon">
+                    <h4>Harvey (600ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 46.000</strong></p>
+                        <p>Tile: <strong>Rp 46.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 47.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Harvey 600ml Sablon">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Harvey 900ml Polos">
+                    <img src="https://picsum.photos/id/85/300/200" alt="Harvey 900ml Polos">
+                    <h4>Harvey (900ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 55.500</strong></p>
+                        <p>Tile: <strong>Rp 56.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 56.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Harvey 900ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Harvey 900ml Sablon">
+                    <img src="https://picsum.photos/id/86/300/200" alt="Harvey 900ml Sablon">
+                    <h4>Harvey (900ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 56.000</strong></p>
+                        <p>Tile: <strong>Rp 56.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 57.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Harvey 900ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Casio -->
+                <div class="product-card" data-category="termos" data-name="Casio 500ml Polos">
+                    <img src="https://picsum.photos/id/87/300/200" alt="Casio 500ml Polos">
+                    <h4>Casio (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 39.000</strong></p>
+                        <p>Tile: <strong>Rp 40.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 40.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Casio 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Casio 500ml Sablon">
+                    <img src="https://picsum.photos/id/88/300/200" alt="Casio 500ml Sablon">
+                    <h4>Casio (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 39.500</strong></p>
+                        <p>Tile: <strong>Rp 40.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 41.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Casio 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Mug Hiro 1 -->
+                <div class="product-card" data-category="termos" data-name="Mug Hiro 1 Polos">
+                    <img src="https://picsum.photos/id/89/300/200" alt="Mug Hiro 1 Polos">
+                    <h4>Mug Hiro 1 Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 34.000</strong></p>
+                        <p>Tile: <strong>Rp 34.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 35.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mug Hiro 1 Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Mug Hiro 1 Sablon">
+                    <img src="https://picsum.photos/id/90/300/200" alt="Mug Hiro 1 Sablon">
+                    <h4>Mug Hiro 1 Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 34.500</strong></p>
+                        <p>Tile: <strong>Rp 35.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 35.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mug Hiro 1 Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Mug Hiro 2 -->
+                <div class="product-card" data-category="termos" data-name="Mug Hiro 2 360ml Polos">
+                    <img src="https://picsum.photos/id/91/300/200" alt="Mug Hiro 2 360ml Polos">
+                    <h4>Mug Hiro 2 (360ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 40.500</strong></p>
+                        <p>Tile: <strong>Rp 41.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 41.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mug Hiro 2 360ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Mug Hiro 2 360ml Sablon">
+                    <img src="https://picsum.photos/id/92/300/200" alt="Mug Hiro 2 360ml Sablon">
+                    <h4>Mug Hiro 2 (360ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 41.000</strong></p>
+                        <p>Tile: <strong>Rp 41.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 42.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mug Hiro 2 360ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Milky -->
+                <div class="product-card" data-category="termos" data-name="Milky 400ml Polos">
+                    <img src="https://picsum.photos/id/93/300/200" alt="Milky 400ml Polos">
+                    <h4>Milky (400ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 46.500</strong></p>
+                        <p>Tile: <strong>Rp 47.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 47.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Milky 400ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Milky 400ml Sablon">
+                    <img src="https://picsum.photos/id/94/300/200" alt="Milky 400ml Sablon">
+                    <h4>Milky (400ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 47.000</strong></p>
+                        <p>Tile: <strong>Rp 47.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 48.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Milky 400ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Bambi -->
+                <div class="product-card" data-category="termos" data-name="Bambi 280ml Polos">
+                    <img src="https://picsum.photos/id/95/300/200" alt="Bambi 280ml Polos">
+                    <h4>Bambi (280ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 34.500</strong></p>
+                        <p>Tile: <strong>Rp 35.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 35.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bambi 280ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Bambi 280ml Sablon">
+                    <img src="https://picsum.photos/id/96/300/200" alt="Bambi 280ml Sablon">
+                    <h4>Bambi (280ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 35.000</strong></p>
+                        <p>Tile: <strong>Rp 35.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 36.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bambi 280ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Mino -->
+                <div class="product-card" data-category="termos" data-name="Mino 500ml Polos">
+                    <img src="https://picsum.photos/id/97/300/200" alt="Mino 500ml Polos">
+                    <h4>Mino (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 45.500</strong></p>
+                        <p>Tile: <strong>Rp 46.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 46.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mino 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Mino 500ml Sablon">
+                    <img src="https://picsum.photos/id/98/300/200" alt="Mino 500ml Sablon">
+                    <h4>Mino (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 46.000</strong></p>
+                        <p>Tile: <strong>Rp 46.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 47.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Mino 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Sport -->
+                <div class="product-card" data-category="termos" data-name="Sport 550ml Polos">
+                    <img src="https://picsum.photos/id/99/300/200" alt="Sport 550ml Polos">
+                    <h4>Sport (550ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 31.500</strong></p>
+                        <p>Tile: <strong>Rp 32.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 32.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Sport 550ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Sport 550ml Sablon">
+                    <img src="https://picsum.photos/id/100/300/200" alt="Sport 550ml Sablon">
+                    <h4>Sport (550ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 32.000</strong></p>
+                        <p>Tile: <strong>Rp 32.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 33.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Sport 550ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Bambu -->
+                <div class="product-card" data-category="termos" data-name="Bambu 500ml Polos">
+                    <img src="https://picsum.photos/id/101/300/200" alt="Bambu 500ml Polos">
+                    <h4>Bambu (500ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 56.500</strong></p>
+                        <p>Tile: <strong>Rp 57.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 57.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bambu 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Bambu 500ml Sablon">
+                    <img src="https://picsum.photos/id/102/300/200" alt="Bambu 500ml Sablon">
+                    <h4>Bambu (500ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 57.000</strong></p>
+                        <p>Tile: <strong>Rp 57.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 58.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bambu 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Forest -->
+                <div class="product-card" data-category="termos" data-name="Forest 800ml Polos">
+                    <img src="https://picsum.photos/id/103/300/200" alt="Forest 800ml Polos">
+                    <h4>Forest (800ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 38.500</strong></p>
+                        <p>Tile: <strong>Rp 39.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 40.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Forest 800ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Forest 800ml Sablon">
+                    <img src="https://picsum.photos/id/104/300/200" alt="Forest 800ml Sablon">
+                    <h4>Forest (800ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 39.000</strong></p>
+                        <p>Tile: <strong>Rp 40.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 41.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Forest 800ml Sablon">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Forest 1000ml Polos">
+                    <img src="https://picsum.photos/id/105/300/200" alt="Forest 1000ml Polos">
+                    <h4>Forest (1.000ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 41.500</strong></p>
+                        <p>Tile: <strong>Rp 43.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 44.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Forest 1000ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Forest 1000ml Sablon">
+                    <img src="https://picsum.photos/id/106/300/200" alt="Forest 1000ml Sablon">
+                    <h4>Forest (1.000ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 42.000</strong></p>
+                        <p>Tile: <strong>Rp 44.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 45.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Forest 1000ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Willo -->
+                <div class="product-card" data-category="termos" data-name="Willo 800ml Polos">
+                    <img src="https://picsum.photos/id/107/300/200" alt="Willo 800ml Polos">
+                    <h4>Willo (800ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 41.000</strong></p>
+                        <p>Tile: <strong>Rp 41.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 42.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Willo 800ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Willo 800ml Sablon">
+                    <img src="https://picsum.photos/id/108/300/200" alt="Willo 800ml Sablon">
+                    <h4>Willo (800ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 41.500</strong></p>
+                        <p>Tile: <strong>Rp 42.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 42.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Willo 800ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Americano -->
+                <div class="product-card" data-category="termos" data-name="Americano 600ml Polos">
+                    <img src="https://picsum.photos/id/109/300/200" alt="Americano 600ml Polos">
+                    <h4>Americano (600ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 31.000</strong></p>
+                        <p>Tile: <strong>Rp 31.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 32.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Americano 600ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Americano 600ml Sablon">
+                    <img src="https://picsum.photos/id/110/300/200" alt="Americano 600ml Sablon">
+                    <h4>Americano (600ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 31.500</strong></p>
+                        <p>Tile: <strong>Rp 32.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 32.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Americano 600ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Marlo -->
+                <div class="product-card" data-category="termos" data-name="Marlo 500ml Polos">
+                    <img src="https://picsum.photos/id/111/300/200" alt="Marlo 500ml Polos">
+                    <h4>Marlo (500ml) Polos (Alumunium)</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 27.000</strong></p>
+                        <p>Tile: <strong>Rp 27.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 28.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Marlo 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Marlo 500ml Sablon">
+                    <img src="https://picsum.photos/id/112/300/200" alt="Marlo 500ml Sablon">
+                    <h4>Marlo (500ml) Sablon (Alumunium)</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 27.500</strong></p>
+                        <p>Tile: <strong>Rp 28.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 28.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Marlo 500ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Pirlo -->
+                <div class="product-card" data-category="termos" data-name="Pirlo 900ml Polos">
+                    <img src="https://picsum.photos/id/113/300/200" alt="Pirlo 900ml Polos">
+                    <h4>Pirlo (900ml) Polos</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 56.000</strong></p>
+                        <p>Tile: <strong>Rp 58.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 60.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pirlo 900ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Pirlo 900ml Sablon">
+                    <img src="https://picsum.photos/id/114/300/200" alt="Pirlo 900ml Sablon">
+                    <h4>Pirlo (900ml) Sablon</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 57.000</strong></p>
+                        <p>Tile: <strong>Rp 59.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 61.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Pirlo 900ml Sablon">Pesan Sekarang</button>
+                </div>
+                <!-- Bima -->
+                <div class="product-card" data-category="termos" data-name="Bima 500ml Polos">
+                    <img src="https://picsum.photos/id/115/300/200" alt="Bima 500ml Polos">
+                    <h4>Bima (500ml) Polos (Alumunium)</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 22.500</strong></p>
+                        <p>Tile: <strong>Rp 23.000</strong></p>
+                        <p>Mika/Box: <strong>Rp 23.500</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bima 500ml Polos">Pesan Sekarang</button>
+                </div>
+                <div class="product-card" data-category="termos" data-name="Bima 500ml Sablon">
+                    <img src="https://picsum.photos/id/116/300/200" alt="Bima 500ml Sablon">
+                    <h4>Bima (500ml) Sablon (Alumunium)</h4>
+                    <div class="price-options">
+                        <p>Plastik: <strong>Rp 23.000</strong></p>
+                        <p>Tile: <strong>Rp 23.500</strong></p>
+                        <p>Mika/Box: <strong>Rp 24.000</strong></p>
+                    </div>
+                    <button class="btn-order" data-product="Bima 500ml Sablon">Pesan Sekarang</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contoh Kemasan Section -->
+        <section id="kemasan" class="packaging-section">
+            <h3>Contoh Kemasan</h3>
+            <div class="packaging-grid">
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Plastik" alt="Kemas Plastik">
+                    <p>Kemas Plastik (Kartu & pita)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Mika" alt="Kemas Mika">
+                    <p>Kemas Mika (Kartu & pita)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Tile" alt="Kemas Tile">
+                    <p>Kemas Tile (Tile & kartu)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Box" alt="Kemas Box">
+                    <p>Kemas Box (Box & kartu) - Pilihan box silakan chat admin</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Pouch" alt="Kemas Pouch">
+                    <p>Kemas Pouch (Bisa tambah sablon di pouch & pilih warna kain)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Hardbox" alt="Kemas Hardbox">
+                    <p>Kemas Hardbox (Custom box bebas desain)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Paperbag" alt="Kemas Paperbag">
+                    <p>Kemas Paperbag (Coklat, putih, hitam)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Mika+Cover" alt="Kemas Mika Cover">
+                    <p>Kemas Mika Cover (Bebas desain)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Set+Hampers" alt="Set Hampers">
+                    <p>Set Hampers (Custom hardbox premium)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Kemas+Box+Pabrik" alt="Kemas Box Pabrik">
+                    <p>Kemas Box Pabrik (Bebas desain 1 sisi + pita)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Besek+Bambu" alt="Besek Bambu">
+                    <p>Besek Bambu (Free kartu ucapan)</p>
+                </div>
+                <div class="packaging-item">
+                    <img src="https://via.placeholder.com/200x150?text=Mini+Hampers" alt="Mini Hampers">
+                    <p>Mini Hampers</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Kia Souvenir. All rights reserved.</p>
+            <p>Hubungi kami: <a href="https://wa.me/6282142074822" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

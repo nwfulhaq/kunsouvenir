@@ -1,0 +1,42 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // WhatsApp order button functionality
+    document.querySelectorAll('.btn-order').forEach(button => {
+        button.addEventListener('click', function() {
+            const productName = this.dataset.product;
+            const whatsappNumber = '6282142074822'; // Nomor WhatsApp Anda
+            const message = encodeURIComponent(`Halo, saya tertarik dengan produk ${productName}. Mohon info lebih lanjut.`);
+            window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+        });
+    });
+
+    // Filter and Search functionality
+    window.filterProducts = function() {
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        const categoryFilter = document.getElementById('categoryFilter').value;
+        const productCards = document.querySelectorAll('.product-card');
+
+        productCards.forEach(card => {
+            const productName = card.dataset.name.toLowerCase();
+            const productCategory = card.dataset.category;
+
+            const matchesSearch = productName.includes(searchInput);
+            const matchesCategory = categoryFilter === 'all' || productCategory === categoryFilter;
+
+            if (matchesSearch && matchesCategory) {
+                card.style.display = 'flex'; // Show the card
+            } else {
+                card.style.display = 'none'; // Hide the card
+            }
+        });
+    };
+});
